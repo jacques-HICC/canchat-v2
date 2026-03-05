@@ -107,7 +107,7 @@
 	};
 </script>
 
-<Modal bind:show on:close={closeModal} disableClose={loading}>
+<Modal bind:show on:close={closeModal} disableClose={loading} title={$i18n.t('Issue Form')}>
 	<div class="flex justify-between items-center p-4 border-b border-gray-200 dark:border-gray-700">
 		<h3 class="text-2xl font-medium font-primary text-gray-900 dark:text-gray-100">
 			{$i18n.t('Issue Form')}
